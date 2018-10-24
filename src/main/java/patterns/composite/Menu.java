@@ -40,12 +40,12 @@ public class Menu extends MenuComponent {
         System.out.println("---------");
     }
 
-    Iterator iterator = menucomponents.iterator();
-    while(iterator.hasNext())
+   // Iterator iterator = menucomponents.iterator();
+  //  while(iterator.hasNext())
 
-    {
-        MenuComponent menuComponent = (MenuComponent) Iterator.next();
-        menuComponent.print();
-    }
+   // {
+   //     MenuComponent menuComponent = (MenuComponent) Iterator.next();
+      //  menuComponent.print();
+  //  }
 }
 
